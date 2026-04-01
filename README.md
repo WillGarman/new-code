@@ -1,13 +1,7 @@
 
-# Claude Code (Unofficial Source Extraction)
+# New Code (Unofficial Source Extraction)
 
-Follow me at https://x.com/paidev
-
-
-
-> **This is NOT an official Anthropic repository.**
-
-This repository contains the extracted TypeScript source code of [Anthropic's Claude Code](https://www.anthropic.com/) CLI tool — Anthropic's official CLI that lets you interact with Claude directly from the terminal to perform software engineering tasks like editing files, running commands, searching codebases, managing git workflows, and more.
+This repository contains the extracted TypeScript source code of [Anthropic's New Code](https://www.anthropic.com/) CLI tool — Anthropic's official CLI that lets you interact with Claude directly from the terminal to perform software engineering tasks like editing files, running commands, searching codebases, managing git workflows, and more.
 
 The source was obtained by unpacking the source map (`cli.js.map`) bundled with the officially published npm package.
 
@@ -18,7 +12,7 @@ The source was obtained by unpacking the source map (`cli.js.map`) bundled with 
 
 The source code leak was discovered by [Chaofan Shou (@Fried_rice)](https://x.com/Fried_rice) and posted publicly on March 31, 2026:
 
-> *"Claude code source code has been leaked via a map file in their npm registry!"*
+> *"New Code source code has been leaked via a map file in their npm registry!"*
 >
 > — [@Fried_rice](https://x.com/Fried_rice), March 31, 2026
 
@@ -26,7 +20,7 @@ The published npm package (`@anthropic-ai/claude-code`) included a source map fi
 
 ## Why does this exist?
 
-Anthropic publishes Claude Code as a bundled JavaScript CLI on npm. The published package includes a source map file (`cli.js.map`) that contains the original TypeScript source. This repository simply extracts and preserves that source for easier reading and reference.
+Anthropic publishes New Code as a bundled JavaScript CLI on npm. The published package includes a source map file (`cli.js.map`) that contains the original TypeScript source. This repository simply extracts and preserves that source for easier reading and reference.
 
 ## How to get it yourself
 
